@@ -1,5 +1,7 @@
 function hitungJumlahKata(kalimat) {
     // you can only write your code here!
+    return kalimat.split(' ').length;
+    /*
     var arrayKata = kalimat.split(' ');
     for(var i = arrayKata.length-1; i--;){
       if (arrayKata[i] === ''){
@@ -7,6 +9,7 @@ function hitungJumlahKata(kalimat) {
       }
     }
     return arrayKata.length;
+    */
 }
 
 // TEST CASES
