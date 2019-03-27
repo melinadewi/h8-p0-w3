@@ -1,6 +1,6 @@
 function pasanganTerbesar(num) {
   // you can only write your code here!
-  strNum = String(num);
+  var strNum = String(num);
   var arrNum = [];
   for (var i=0; i<strNum.length-1;i++){
     var angka = strNum[i]+strNum[i+1];
